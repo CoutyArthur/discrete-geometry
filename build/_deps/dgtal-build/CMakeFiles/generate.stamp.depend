@@ -1,0 +1,46 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CPack.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CPackComponent.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FetchContent.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindGit.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindZLIB.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in
+C:/Users/couty25/Documents/geoDiscrete/build/CMakeFiles/cmake.verify_globs
+C:/Users/couty25/Documents/geoDiscrete/build/CPM.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/FindCairo.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/CMakeLists.txt
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/BuildExamples.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/BuildTests.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/CPM.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/CheckDGtalDependencies.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/CheckDGtalOptionalDependencies.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/Common.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/CpackCtest.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/DGtalConfig.cmake.in
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/DevelopmentOptions.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/GeneratorSpecific.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/Install.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/NeighborhoodTablesConfig.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/OSDependentSettings.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/PythonWrappings.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/TargetDoxygenDoc.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/TargetDoxygenDox.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/TargetUninstall.cmake.in
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/deps/FindDoxygen.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/deps/FindPackageHandleStandardArgs.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/deps/FindPackageMessage.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/deps/boost.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/deps/eigen.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/doxygen.cmake
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/src/DGtal/base/Config.h.in
+C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/src/DGtal/topology/tables/NeighborhoodTables.h.in
+C:/Users/couty25/Documents/geoDiscrete/build/cmake/CPM_0.42.0.cmake

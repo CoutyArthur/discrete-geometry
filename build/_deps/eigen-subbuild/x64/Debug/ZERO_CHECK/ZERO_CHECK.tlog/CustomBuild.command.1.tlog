@@ -1,0 +1,10 @@
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\A2487009AB37BDAD98F02AC7E84DA403\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/couty25/Documents/geoDiscrete/build/_deps/eigen-subbuild -BC:/Users/couty25/Documents/geoDiscrete/build/_deps/eigen-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/couty25/Documents/geoDiscrete/build/_deps/eigen-subbuild/eigen-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

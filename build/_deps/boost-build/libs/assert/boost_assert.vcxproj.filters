@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-src\libs\assert\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-src\libs\assert\extra\boost_assert.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-src\libs\assert\include\boost\assert.hpp">
+      <Filter>Header Files\boost</Filter>
+    </None>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-src\libs\assert\include\boost\assert\source_location.hpp">
+      <Filter>Header Files\boost\assert</Filter>
+    </None>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-src\libs\assert\include\boost\current_function.hpp">
+      <Filter>Header Files\boost</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{48F89C8C-8017-3627-8BD4-4A9EB7992F81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boost">
+      <UniqueIdentifier>{BC631097-1001-3B9F-844D-83477DE17848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boost\assert">
+      <UniqueIdentifier>{E3120EDC-CCF4-3EA7-8D38-B36C97D7ED11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

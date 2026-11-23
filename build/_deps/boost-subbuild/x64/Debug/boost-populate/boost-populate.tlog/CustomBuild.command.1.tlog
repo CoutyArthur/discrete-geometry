@@ -1,0 +1,150 @@
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/tmp/boost-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/tmp/boost-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/tmp/boost-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\048F7D3D9ECF882BC016EADBB3E00392\BOOST-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\B62704A25463A89E4E7EF9D0330A2B36\BOOST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/Debug/boost-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/Debug/boost-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKEFILES\D587119B35546CCCC21593B3D6D5757A\BOOST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\BOOST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild -BC:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild --check-stamp-file C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

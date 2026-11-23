@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/dgtal-populate"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/0fa9f96a2406372074dbda59c323488f/dgtal-populate.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/28ffefc1381ca57a28c102c35055e4e6/dgtal-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-subbuild/CMakeFiles/3f86ceb87d729fb9adcf5a32343c6e9f/dgtal-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dgtal-populate"
+		],
+		"name" : "dgtal-populate"
+	}
+}

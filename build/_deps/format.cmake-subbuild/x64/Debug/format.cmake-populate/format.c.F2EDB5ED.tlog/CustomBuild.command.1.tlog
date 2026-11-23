@@ -1,0 +1,150 @@
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/tmp/format.cmake-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/tmp/format.cmake-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\format.cmake-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/tmp/format.cmake-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\format.cmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\format.cmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\format.cmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\AE5F62A41DA0CB226F9266F42E59EE13\FORMAT.CMAKE-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\couty25\Documents\geoDiscrete\build\_deps\format.cmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\A9B1EBA8D9B818E010FA4742F4E0490D\FORMAT.CMAKE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/CMakeFiles/Debug/format.cmake-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/Debug/format.cmake-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKEFILES\FB9A8A1D49CF3024E1C80C7217ACF58D\FORMAT.CMAKE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\FORMAT.CMAKE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild -BC:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild --check-stamp-file C:/Users/couty25/Documents/geoDiscrete/build/_deps/format.cmake-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

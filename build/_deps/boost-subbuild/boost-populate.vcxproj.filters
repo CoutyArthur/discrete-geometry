@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\048f7d3d9ecf882bc016eadbb3e00392\boost-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\b62704a25463a89e4e7ef9d0330a2b36\boost-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\d587119b35546cccc21593b3d6d5757a\boost-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\boost-subbuild\CMakeFiles\boost-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D8E8ED1A-2D10-380C-B29D-886CD5A9FB8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

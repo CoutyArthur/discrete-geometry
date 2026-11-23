@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\9d075bba82dc21d6d9521a0e04eb7f07\eigen-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\93b39a2e2322fe26824de6e1ed82f8fc\eigen-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\a2487009ab37bdad98f02ac7e84da403\eigen-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\eigen-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F355EB76-4EA2-30A8-B1AD-5F57D88080B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

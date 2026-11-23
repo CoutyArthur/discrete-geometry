@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\bbd54816d7005225ad685ca550c19a83\ccache.cmake-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\ee4cfeb865a26ed27887fff4b83dbe72\ccache.cmake-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\44216ba9ec5d7c5f56f19591ee3ec7ad\ccache.cmake-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\ccache.cmake-subbuild\CMakeFiles\ccache.cmake-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C17D174E-F886-3E55-A4D2-C461859B0082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

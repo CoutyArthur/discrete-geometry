@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\eigen-subbuild\CMakeFiles\a2487009ab37bdad98f02ac7e84da403\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F355EB76-4EA2-30A8-B1AD-5F57D88080B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

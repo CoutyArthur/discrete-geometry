@@ -1,0 +1,13 @@
+prefix=C:/Program Files/geoDiscrete
+exec_prefix=C:/Program Files/geoDiscrete
+libdir=C:/Program Files/geoDiscrete/lib
+sharedlibdir=C:/Program Files/geoDiscrete/lib
+includedir=C:/Program Files/geoDiscrete/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

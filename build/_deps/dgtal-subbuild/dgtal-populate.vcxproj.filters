@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\3f86ceb87d729fb9adcf5a32343c6e9f\dgtal-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\28ffefc1381ca57a28c102c35055e4e6\dgtal-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\0fa9f96a2406372074dbda59c323488f\dgtal-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\couty25\Documents\geoDiscrete\build\_deps\dgtal-subbuild\CMakeFiles\dgtal-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5E4DA17C-9648-3CEA-97B2-942C62E25057}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

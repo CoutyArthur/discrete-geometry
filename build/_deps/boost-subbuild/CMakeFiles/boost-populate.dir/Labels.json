@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/boost-populate"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/d587119b35546cccc21593b3d6d5757a/boost-populate.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/b62704a25463a89e4e7ef9d0330a2b36/boost-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-subbuild/CMakeFiles/048f7d3d9ecf882bc016eadbb3e00392/boost-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost-populate"
+		],
+		"name" : "boost-populate"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/dgtal-build/src/DGtal",
+		"source" : "build/_deps/dgtal-src/src/DGtal"
+	}
+}

@@ -1,0 +1,10 @@
+^C:\USERS\COUTY25\DOCUMENTS\GEODISCRETE\BUILD\_DEPS\CCACHE.CMAKE-SUBBUILD\CMAKEFILES\44216BA9EC5D7C5F56F19591EE3EC7AD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/couty25/Documents/geoDiscrete/build/_deps/ccache.cmake-subbuild -BC:/Users/couty25/Documents/geoDiscrete/build/_deps/ccache.cmake-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/couty25/Documents/geoDiscrete/build/_deps/ccache.cmake-subbuild/ccache.cmake-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
