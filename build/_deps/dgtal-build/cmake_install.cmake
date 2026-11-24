@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/geoDiscrete")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/geoDiscrete")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,14 +34,14 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files/geoDiscrete/share/DGtal/html")
+   "C:/Program Files (x86)/geoDiscrete/share/DGtal/html")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files/geoDiscrete/share/DGtal" TYPE DIRECTORY FILES "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/doc/html")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/geoDiscrete/share/DGtal" TYPE DIRECTORY FILES "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/doc/html")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -340,26 +340,26 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "eigen" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/NeighborhoodTables.h")
+   "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/NeighborhoodTables.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files/geoDiscrete/include/DGtal/topology/tables" TYPE FILE FILES "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-build/InstallFiles/NeighborhoodTables.h")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables" TYPE FILE FILES "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-build/InstallFiles/NeighborhoodTables.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "eigen" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/")
+   "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files/geoDiscrete/include/DGtal/topology/tables" TYPE DIRECTORY FILES "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/src/DGtal/topology/tables/" FILES_MATCHING REGEX "/[^/]*\\.zlib$")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables" TYPE DIRECTORY FILES "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/src/DGtal/topology/tables/" FILES_MATCHING REGEX "/[^/]*\\.zlib$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "eigen" OR NOT CMAKE_INSTALL_COMPONENT)

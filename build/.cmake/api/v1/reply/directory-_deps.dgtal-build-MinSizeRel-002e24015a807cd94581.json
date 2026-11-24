@@ -1,0 +1,876 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include",
+			"INCLUDE"
+		],
+		"files" : 
+		[
+			"build/_deps/dgtal-src/cmake/doxygen.cmake",
+			"build/_deps/dgtal-src/cmake/Common.cmake",
+			"build/_deps/dgtal-src/CMakeLists.txt",
+			"build/_deps/dgtal-src/cmake/deps/boost.cmake",
+			"build/_deps/dgtal-src/cmake/CheckDGtalDependencies.cmake",
+			"build/_deps/dgtal-src/cmake/deps/eigen.cmake",
+			"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/InstallRequiredSystemLibraries.cmake",
+			"build/_deps/dgtal-src/cmake/CpackCtest.cmake",
+			"build/_deps/dgtal-src/cmake/NeighborhoodTablesConfig.cmake",
+			"build/_deps/dgtal-src/cmake/Install.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 15,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 233,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 234,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 235,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 58,
+				"parent" : 7
+			},
+			{
+				"file" : 5,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 83,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 798,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"file" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 25,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 64,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 71,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 81,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 136,
+				"parent" : 27
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/geoDiscrete/share/DGtal",
+			"paths" : 
+			[
+				"build/_deps/dgtal-src/doc/html"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/atomic/MinSizeRel/libboost_atomic-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_atomic::@af4e7b587c628727a501",
+			"targetIndex" : 87,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/chrono/MinSizeRel/libboost_chrono-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_chrono::@be6e289178a6d7f8349b",
+			"targetIndex" : 88,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/container/MinSizeRel/libboost_container-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_container::@c32b1d466a2a3774f8b2",
+			"targetIndex" : 89,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/date_time/MinSizeRel/libboost_date_time-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_date_time::@66ea84c75316a41dd820",
+			"targetIndex" : 91,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/exception/MinSizeRel/libboost_exception-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_exception::@99a4a3f312800b24f965",
+			"targetIndex" : 92,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/graph/MinSizeRel/libboost_graph-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_graph::@2f935bf62f9d504e89aa",
+			"targetIndex" : 93,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/iostreams/MinSizeRel/libboost_iostreams-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_iostreams::@f41fd4685fe132a890ea",
+			"targetIndex" : 94,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/random/MinSizeRel/libboost_random-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_random::@ddffb027e3570cd93ea8",
+			"targetIndex" : 95,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/serialization/MinSizeRel/libboost_serialization-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_serialization::@6b9f1e975f10e47f9876",
+			"targetIndex" : 96,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/boost-build/libs/thread/MinSizeRel/libboost_thread-vc144-mt-x64-1_84.lib"
+			],
+			"targetId" : "boost_thread::@0571f5ffef38e5273762",
+			"targetIndex" : 98,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/DGtal",
+			"exportName" : "boost",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost::@cd99b3a87ea294d84142",
+					"index" : 0
+				},
+				{
+					"id" : "boost_algorithm::@ea94240d380103da7f7a",
+					"index" : 0
+				},
+				{
+					"id" : "boost_align::@797bcbbb5a46605b8839",
+					"index" : 0
+				},
+				{
+					"id" : "boost_any::@5546660400870d71c27e",
+					"index" : 0
+				},
+				{
+					"id" : "boost_array::@46e357405ca08fcdad21",
+					"index" : 0
+				},
+				{
+					"id" : "boost_assert::@ca781959373d446383c8",
+					"index" : 86
+				},
+				{
+					"id" : "boost_atomic::@af4e7b587c628727a501",
+					"index" : 87
+				},
+				{
+					"id" : "boost_bimap::@d900fbb81d839daade7d",
+					"index" : 0
+				},
+				{
+					"id" : "boost_bind::@35e8f98cd40b480d156e",
+					"index" : 0
+				},
+				{
+					"id" : "boost_chrono::@be6e289178a6d7f8349b",
+					"index" : 88
+				},
+				{
+					"id" : "boost_concept_check::@003dcddc9f513f5c8bfe",
+					"index" : 0
+				},
+				{
+					"id" : "boost_config::@8fd7e5fcb366bce5ccde",
+					"index" : 0
+				},
+				{
+					"id" : "boost_container::@c32b1d466a2a3774f8b2",
+					"index" : 89
+				},
+				{
+					"id" : "boost_container_hash::@07ce8717ec12edbed616",
+					"index" : 0
+				},
+				{
+					"id" : "boost_conversion::@480b69ec55abc4ed056b",
+					"index" : 0
+				},
+				{
+					"id" : "boost_core::@9ce778423535102284e4",
+					"index" : 90
+				},
+				{
+					"id" : "boost_date_time::@66ea84c75316a41dd820",
+					"index" : 91
+				},
+				{
+					"id" : "boost_describe::@f5d43ea9a997d5a497fc",
+					"index" : 0
+				},
+				{
+					"id" : "boost_detail::@07662fe906c1495940ba",
+					"index" : 0
+				},
+				{
+					"id" : "boost_dynamic_bitset::@e49b31deec99f76aaeee",
+					"index" : 0
+				},
+				{
+					"id" : "boost_endian::@3c11bd4f6c94053b150b",
+					"index" : 0
+				},
+				{
+					"id" : "boost_exception::@99a4a3f312800b24f965",
+					"index" : 92
+				},
+				{
+					"id" : "boost_foreach::@8c421d3861030f2b81ab",
+					"index" : 0
+				},
+				{
+					"id" : "boost_function::@42b2cdd4845e692c0f86",
+					"index" : 0
+				},
+				{
+					"id" : "boost_function_types::@f92394a4197404547b2d",
+					"index" : 0
+				},
+				{
+					"id" : "boost_functional::@97c6770bdbd32e684b3b",
+					"index" : 0
+				},
+				{
+					"id" : "boost_fusion::@6aa8cc659b2881f46500",
+					"index" : 0
+				},
+				{
+					"id" : "boost_graph::@2f935bf62f9d504e89aa",
+					"index" : 93
+				},
+				{
+					"id" : "boost_headers::@6dbca9fcd99f19d702ca",
+					"index" : 0
+				},
+				{
+					"id" : "boost_icl::@6b8f20077d103a1317a2",
+					"index" : 0
+				},
+				{
+					"id" : "boost_integer::@435345965e62ad8723ad",
+					"index" : 0
+				},
+				{
+					"id" : "boost_intrusive::@3e0af5c1af548a59ab8d",
+					"index" : 0
+				},
+				{
+					"id" : "boost_io::@d429b055e4a3b1ce89bf",
+					"index" : 0
+				},
+				{
+					"id" : "boost_iostreams::@f41fd4685fe132a890ea",
+					"index" : 94
+				},
+				{
+					"id" : "boost_iterator::@2647375738d072f43182",
+					"index" : 0
+				},
+				{
+					"id" : "boost_lambda::@85c0a6e09b4626a056f1",
+					"index" : 0
+				},
+				{
+					"id" : "boost_lexical_cast::@d382a6f2b70f2bc9a4bc",
+					"index" : 0
+				},
+				{
+					"id" : "boost_math::@610f7ad7ef9be9b551c9",
+					"index" : 0
+				},
+				{
+					"id" : "boost_move::@7afc92e35862dd42939c",
+					"index" : 0
+				},
+				{
+					"id" : "boost_mp11::@697146cc71a8f8befc74",
+					"index" : 0
+				},
+				{
+					"id" : "boost_mpl::@cff897d36277151590c6",
+					"index" : 0
+				},
+				{
+					"id" : "boost_multi_index::@e0a45cf9a8c137cadfe7",
+					"index" : 0
+				},
+				{
+					"id" : "boost_multiprecision::@574b505fdf65fc94ae44",
+					"index" : 0
+				},
+				{
+					"id" : "boost_numeric_conversion::@393e189a047d8b5926bd",
+					"index" : 0
+				},
+				{
+					"id" : "boost_optional::@c24bf7cf75772fb3436f",
+					"index" : 0
+				},
+				{
+					"id" : "boost_parameter::@a7a11ecccce1e0d4f4d6",
+					"index" : 0
+				},
+				{
+					"id" : "boost_phoenix::@692bac7bd91174d715eb",
+					"index" : 0
+				},
+				{
+					"id" : "boost_pool::@72d65e4add722ff6fb81",
+					"index" : 0
+				},
+				{
+					"id" : "boost_predef::@23da831b47d19bcb5a39",
+					"index" : 0
+				},
+				{
+					"id" : "boost_preprocessor::@05bb09c3eb074836ef60",
+					"index" : 0
+				},
+				{
+					"id" : "boost_property_map::@b63add131561058b317b",
+					"index" : 0
+				},
+				{
+					"id" : "boost_property_tree::@e5690cf2f478061197f1",
+					"index" : 0
+				},
+				{
+					"id" : "boost_proto::@ef2c8f21076b4ebfd993",
+					"index" : 0
+				},
+				{
+					"id" : "boost_random::@ddffb027e3570cd93ea8",
+					"index" : 95
+				},
+				{
+					"id" : "boost_range::@ca62b01dfbf41310166b",
+					"index" : 0
+				},
+				{
+					"id" : "boost_ratio::@7c0be7710d0386c3a90d",
+					"index" : 0
+				},
+				{
+					"id" : "boost_rational::@7b87e342a82979b27f5c",
+					"index" : 0
+				},
+				{
+					"id" : "boost_regex::@581c0f51b3ce05b0d2f8",
+					"index" : 0
+				},
+				{
+					"id" : "boost_serialization::@6b9f1e975f10e47f9876",
+					"index" : 96
+				},
+				{
+					"id" : "boost_smart_ptr::@c88f626c0f0c67e64ad5",
+					"index" : 0
+				},
+				{
+					"id" : "boost_spirit::@5e5f17adf0e91bdf2f22",
+					"index" : 0
+				},
+				{
+					"id" : "boost_static_assert::@3bed1403c8623e791ab9",
+					"index" : 0
+				},
+				{
+					"id" : "boost_system::@88f8acc0de176ce32d14",
+					"index" : 97
+				},
+				{
+					"id" : "boost_thread::@0571f5ffef38e5273762",
+					"index" : 98
+				},
+				{
+					"id" : "boost_throw_exception::@83cb61eed02efd6dd30e",
+					"index" : 0
+				},
+				{
+					"id" : "boost_tokenizer::@4ecc8bc681f8f0447e72",
+					"index" : 0
+				},
+				{
+					"id" : "boost_tti::@0fb0716bb520bf012e29",
+					"index" : 0
+				},
+				{
+					"id" : "boost_tuple::@a7135aedbca7bdd1c21f",
+					"index" : 0
+				},
+				{
+					"id" : "boost_type_index::@6aa7475d037465371202",
+					"index" : 0
+				},
+				{
+					"id" : "boost_type_traits::@904f217963657fb5504f",
+					"index" : 0
+				},
+				{
+					"id" : "boost_typeof::@1f9c5a85e3c6cd6bd331",
+					"index" : 0
+				},
+				{
+					"id" : "boost_unordered::@9817a94dbd181882d04b",
+					"index" : 0
+				},
+				{
+					"id" : "boost_utility::@13b359269b9532f15b2e",
+					"index" : 0
+				},
+				{
+					"id" : "boost_variant::@672d49c960c0662bc10a",
+					"index" : 0
+				},
+				{
+					"id" : "boost_variant2::@7801607b17d58cfeeea6",
+					"index" : 99
+				},
+				{
+					"id" : "boost_winapi::@d6d3a768ae0fa2c71c1d",
+					"index" : 0
+				},
+				{
+					"id" : "boost_xpressive::@4512d8448885369db370",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/dgtal-build/CMakeFiles/Export/a8819de337cac1cd732eabd2dc326a61/BoostConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/DGtal/3rdParties/boost",
+			"paths" : 
+			[
+				"build/_deps/boost-src/libs/algorithm",
+				"build/_deps/boost-src/libs/align",
+				"build/_deps/boost-src/libs/any",
+				"build/_deps/boost-src/libs/array",
+				"build/_deps/boost-src/libs/assert",
+				"build/_deps/boost-src/libs/atomic",
+				"build/_deps/boost-src/libs/bimap",
+				"build/_deps/boost-src/libs/bind",
+				"build/_deps/boost-src/libs/chrono",
+				"build/_deps/boost-src/libs/concept_check",
+				"build/_deps/boost-src/libs/config",
+				"build/_deps/boost-src/libs/container",
+				"build/_deps/boost-src/libs/container_hash",
+				"build/_deps/boost-src/libs/conversion",
+				"build/_deps/boost-src/libs/core",
+				"build/_deps/boost-src/libs/date_time",
+				"build/_deps/boost-src/libs/describe",
+				"build/_deps/boost-src/libs/detail",
+				"build/_deps/boost-src/libs/dynamic_bitset",
+				"build/_deps/boost-src/libs/endian",
+				"build/_deps/boost-src/libs/exception",
+				"build/_deps/boost-src/libs/foreach",
+				"build/_deps/boost-src/libs/function",
+				"build/_deps/boost-src/libs/function_types",
+				"build/_deps/boost-src/libs/functional",
+				"build/_deps/boost-src/libs/fusion",
+				"build/_deps/boost-src/libs/graph",
+				"build/_deps/boost-src/libs/headers",
+				"build/_deps/boost-src/libs/icl",
+				"build/_deps/boost-src/libs/integer",
+				"build/_deps/boost-src/libs/intrusive",
+				"build/_deps/boost-src/libs/io",
+				"build/_deps/boost-src/libs/iostreams",
+				"build/_deps/boost-src/libs/iterator",
+				"build/_deps/boost-src/libs/lambda",
+				"build/_deps/boost-src/libs/lexical_cast",
+				"build/_deps/boost-src/libs/math",
+				"build/_deps/boost-src/libs/move",
+				"build/_deps/boost-src/libs/mp11",
+				"build/_deps/boost-src/libs/mpl",
+				"build/_deps/boost-src/libs/multi_index",
+				"build/_deps/boost-src/libs/multiprecision",
+				"build/_deps/boost-src/libs/optional",
+				"build/_deps/boost-src/libs/parameter",
+				"build/_deps/boost-src/libs/phoenix",
+				"build/_deps/boost-src/libs/pool",
+				"build/_deps/boost-src/libs/predef",
+				"build/_deps/boost-src/libs/preprocessor",
+				"build/_deps/boost-src/libs/property_map",
+				"build/_deps/boost-src/libs/property_tree",
+				"build/_deps/boost-src/libs/proto",
+				"build/_deps/boost-src/libs/random",
+				"build/_deps/boost-src/libs/range",
+				"build/_deps/boost-src/libs/ratio",
+				"build/_deps/boost-src/libs/rational",
+				"build/_deps/boost-src/libs/regex",
+				"build/_deps/boost-src/libs/serialization",
+				"build/_deps/boost-src/libs/smart_ptr",
+				"build/_deps/boost-src/libs/spirit",
+				"build/_deps/boost-src/libs/static_assert",
+				"build/_deps/boost-src/libs/system",
+				"build/_deps/boost-src/libs/thread",
+				"build/_deps/boost-src/libs/throw_exception",
+				"build/_deps/boost-src/libs/tokenizer",
+				"build/_deps/boost-src/libs/tti",
+				"build/_deps/boost-src/libs/tuple",
+				"build/_deps/boost-src/libs/type_index",
+				"build/_deps/boost-src/libs/type_traits",
+				"build/_deps/boost-src/libs/typeof",
+				"build/_deps/boost-src/libs/unordered",
+				"build/_deps/boost-src/libs/utility",
+				"build/_deps/boost-src/libs/variant",
+				"build/_deps/boost-src/libs/variant2",
+				"build/_deps/boost-src/libs/winapi",
+				"build/_deps/boost-src/libs/xpressive",
+				"build/_deps/boost-src/libs/numeric"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "include/DGtal/3rdParties",
+			"paths" : 
+			[
+				"build/_deps/eigen-src/Eigen"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "eigen",
+			"destination" : "lib/cmake/DGtal",
+			"exportName" : "Eigen_Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Eigen3_Eigen::@cd99b3a87ea294d84142",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/dgtal-build/CMakeFiles/Export/a8819de337cac1cd732eabd2dc326a61/EigenConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "eigen",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/msvcp140.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/msvcp140_1.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/msvcp140_2.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/msvcp140_atomic_wait.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/msvcp140_codecvt_ids.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/vcruntime140_1.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/vcruntime140.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.40.33807/x64/Microsoft.VC143.CRT/concrt140.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "eigen",
+			"destination" : "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables",
+			"paths" : 
+			[
+				"build/_deps/dgtal-build/InstallFiles/NeighborhoodTables.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "eigen",
+			"destination" : "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables",
+			"paths" : 
+			[
+				{
+					"from" : "build/_deps/dgtal-src/src/DGtal/topology/tables",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "eigen",
+			"destination" : "include/DGtal/3rdParties",
+			"paths" : 
+			[
+				"build/_deps/dgtal-src/src/Board",
+				"build/_deps/dgtal-src/src/BoostAddons",
+				"build/_deps/dgtal-src/src/stb"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "eigen",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/_deps/dgtal-src/src/DGtal"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "eigen",
+			"destination" : "include/DGtal/base",
+			"paths" : 
+			[
+				"build/_deps/dgtal-build/src/DGtal/base/Config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "eigen",
+			"destination" : "include/DGtal/topology/tables",
+			"paths" : 
+			[
+				"build/_deps/dgtal-build/src/DGtal/topology/tables/NeighborhoodTables.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "eigen",
+			"destination" : "lib/cmake/DGtal",
+			"paths" : 
+			[
+				"build/_deps/dgtal-build/DGtalConfig.cmake",
+				"build/_deps/dgtal-build/DGtalConfigVersion.cmake",
+				"build/_deps/dgtal-src/cmake/deps/FindCairo.cmake",
+				"build/_deps/dgtal-src/cmake/deps/FindFFTW3.cmake",
+				"build/_deps/dgtal-src/cmake/deps/libigl.cmake",
+				"build/_deps/dgtal-src/cmake/deps/ponca.cmake",
+				"build/_deps/dgtal-src/cmake/deps/openmp.cmake",
+				"build/_deps/dgtal-src/cmake/CPM.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/dgtal-build",
+		"source" : "build/_deps/dgtal-src"
+	}
+}

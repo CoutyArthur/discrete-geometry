@@ -115,6 +115,18 @@
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlicommon.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlidec.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlienc.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/bz2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-script-interpreter-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/fontconfig-1.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/freetype.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libexpat.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libpng16.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libz.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pixman-1-0.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVC3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVCE3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVSE3.dll C:/Users/couty25/Documents/geoDiscrete/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\dgtal-build\src\DGtal\Debug\DGtald.lib;_deps\dgtal-build\src\Board\Debug\DGTAL_LibBoardd.lib;_deps\dgtal-build\src\BoostAddons\Debug\DGTAL_BoostAddonsd.lib;_deps\boost-build\libs\graph\Debug\libboost_graph-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\iostreams\Debug\libboost_iostreams-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\random\Debug\libboost_random-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\serialization\Debug\libboost_serialization-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\thread\Debug\libboost_thread-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\atomic\Debug\libboost_atomic-vc144-mt-gd-x64-1_84d.lib;synchronization.lib;_deps\boost-build\libs\chrono\Debug\libboost_chrono-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\date_time\Debug\libboost_date_time-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\exception\Debug\libboost_exception-vc144-mt-gd-x64-1_84d.lib;_deps\boost-build\libs\container\Debug\libboost_container-vc144-mt-gd-x64-1_84d.lib;_deps\zlib-build\Debug\zlibstaticd.lib;C:\Users\couty25\vcpkg\installed\x64-windows\lib\cairo.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -160,6 +172,18 @@
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlicommon.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlidec.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlienc.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/bz2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-script-interpreter-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/fontconfig-1.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/freetype.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libexpat.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libpng16.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libz.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pixman-1-0.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVC3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVCE3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVSE3.dll C:/Users/couty25/Documents/geoDiscrete/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\dgtal-build\src\DGtal\Release\DGtal.lib;_deps\dgtal-build\src\Board\Release\DGTAL_LibBoard.lib;_deps\dgtal-build\src\BoostAddons\Release\DGTAL_BoostAddons.lib;_deps\boost-build\libs\graph\Release\libboost_graph-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\iostreams\Release\libboost_iostreams-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\random\Release\libboost_random-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\serialization\Release\libboost_serialization-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\thread\Release\libboost_thread-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\atomic\Release\libboost_atomic-vc144-mt-x64-1_84.lib;synchronization.lib;_deps\boost-build\libs\chrono\Release\libboost_chrono-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\date_time\Release\libboost_date_time-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\exception\Release\libboost_exception-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\container\Release\libboost_container-vc144-mt-x64-1_84.lib;_deps\zlib-build\Release\zlibstatic.lib;C:\Users\couty25\vcpkg\installed\x64-windows\lib\cairo.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -205,6 +229,18 @@
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlicommon.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlidec.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlienc.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/bz2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-script-interpreter-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/fontconfig-1.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/freetype.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libexpat.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libpng16.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libz.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pixman-1-0.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVC3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVCE3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVSE3.dll C:/Users/couty25/Documents/geoDiscrete/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\dgtal-build\src\DGtal\MinSizeRel\DGtal.lib;_deps\dgtal-build\src\Board\MinSizeRel\DGTAL_LibBoard.lib;_deps\dgtal-build\src\BoostAddons\MinSizeRel\DGTAL_BoostAddons.lib;_deps\boost-build\libs\graph\MinSizeRel\libboost_graph-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\iostreams\MinSizeRel\libboost_iostreams-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\random\MinSizeRel\libboost_random-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\serialization\MinSizeRel\libboost_serialization-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\thread\MinSizeRel\libboost_thread-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\atomic\MinSizeRel\libboost_atomic-vc144-mt-x64-1_84.lib;synchronization.lib;_deps\boost-build\libs\chrono\MinSizeRel\libboost_chrono-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\date_time\MinSizeRel\libboost_date_time-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\exception\MinSizeRel\libboost_exception-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\container\MinSizeRel\libboost_container-vc144-mt-x64-1_84.lib;_deps\zlib-build\MinSizeRel\zlibstatic.lib;C:\Users\couty25\vcpkg\installed\x64-windows\lib\cairo.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -249,6 +285,18 @@
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlicommon.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlidec.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/brotlienc.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/bz2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/cairo-script-interpreter-2.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/fontconfig-1.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/freetype.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libexpat.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libpng16.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/libz.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pixman-1-0.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVC3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVCE3.dll C:/Users/couty25/vcpkg/installed/x64-windows/bin/pthreadVSE3.dll C:/Users/couty25/Documents/geoDiscrete/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\dgtal-build\src\DGtal\RelWithDebInfo\DGtal.lib;_deps\dgtal-build\src\Board\RelWithDebInfo\DGTAL_LibBoard.lib;_deps\dgtal-build\src\BoostAddons\RelWithDebInfo\DGTAL_BoostAddons.lib;_deps\boost-build\libs\graph\RelWithDebInfo\libboost_graph-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\iostreams\RelWithDebInfo\libboost_iostreams-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\random\RelWithDebInfo\libboost_random-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\serialization\RelWithDebInfo\libboost_serialization-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\thread\RelWithDebInfo\libboost_thread-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\atomic\RelWithDebInfo\libboost_atomic-vc144-mt-x64-1_84.lib;synchronization.lib;_deps\boost-build\libs\chrono\RelWithDebInfo\libboost_chrono-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\date_time\RelWithDebInfo\libboost_date_time-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\exception\RelWithDebInfo\libboost_exception-vc144-mt-x64-1_84.lib;_deps\boost-build\libs\container\RelWithDebInfo\libboost_container-vc144-mt-x64-1_84.lib;_deps\zlib-build\RelWithDebInfo\zlibstatic.lib;C:\Users\couty25\vcpkg\installed\x64-windows\lib\cairo.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

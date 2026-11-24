@@ -1,8 +1,8 @@
-prefix=C:/Program Files/geoDiscrete
-exec_prefix=C:/Program Files/geoDiscrete
-libdir=C:/Program Files/geoDiscrete/lib
-sharedlibdir=C:/Program Files/geoDiscrete/lib
-includedir=C:/Program Files/geoDiscrete/include
+prefix=C:/Program Files (x86)/geoDiscrete
+exec_prefix=C:/Program Files (x86)/geoDiscrete
+libdir=C:/Program Files (x86)/geoDiscrete/lib
+sharedlibdir=C:/Program Files (x86)/geoDiscrete/lib
+includedir=C:/Program Files (x86)/geoDiscrete/include
 
 Name: zlib
 Description: zlib compression library

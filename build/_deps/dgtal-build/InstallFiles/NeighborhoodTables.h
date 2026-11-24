@@ -16,27 +16,27 @@
 namespace DGtal {
   namespace simplicity  {
   ///Path to the DGtal look up tables. Compressed with zlib.
-  inline const std::string tableDir = "C:/Program Files/geoDiscrete/include/DGtal/topology/tables";
+  inline const std::string tableDir = "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables";
   inline const std::string tableSimple26_6 =
-    "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/simplicity_table26_6.zlib";
+    "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/simplicity_table26_6.zlib";
   inline const std::string tableSimple18_6 =
-    "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/simplicity_table18_6.zlib";
+    "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/simplicity_table18_6.zlib";
   inline const std::string tableSimple6_26 =
-    "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/simplicity_table6_26.zlib";
+    "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/simplicity_table6_26.zlib";
   inline const std::string tableSimple6_18 =
-    "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/simplicity_table6_18.zlib";
+    "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/simplicity_table6_18.zlib";
   inline const std::string tableSimple8_4 =
-    "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/simplicity_table8_4.zlib";
+    "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/simplicity_table8_4.zlib";
   inline const std::string tableSimple4_8 =
-    "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/simplicity_table4_8.zlib";
+    "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/simplicity_table4_8.zlib";
   } // simplicity namespace
 
   namespace isthmusicity {
     inline const std::string tableIsthmus =
-      "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/isthmusicity_table26_6.zlib";
+      "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/isthmusicity_table26_6.zlib";
     inline const std::string tableOneIsthmus =
-      "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/isthmusicityOne_table26_6.zlib";
+      "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/isthmusicityOne_table26_6.zlib";
     inline const std::string tableTwoIsthmus =
-      "C:/Program Files/geoDiscrete/include/DGtal/topology/tables/isthmusicityTwo_table26_6.zlib";
+      "C:/Program Files (x86)/geoDiscrete/include/DGtal/topology/tables/isthmusicityTwo_table26_6.zlib";
   } // isthmusicity namespace
 } // DGtal namespace

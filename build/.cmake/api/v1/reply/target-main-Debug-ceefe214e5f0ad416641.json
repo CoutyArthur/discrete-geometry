@@ -1,0 +1,932 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/main.exe"
+		},
+		{
+			"path" : "Debug/main.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"build/_deps/dgtal-src/src/DGtal/CMakeLists.txt",
+			"build/_deps/dgtal-src/cmake/deps/boost.cmake",
+			"build/_deps/dgtal-src/cmake/CheckDGtalDependencies.cmake",
+			"build/_deps/dgtal-src/CMakeLists.txt",
+			"build/_deps/boost-src/libs/atomic/CMakeLists.txt",
+			"build/_deps/dgtal-src/cmake/CheckDGtalOptionalDependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 5
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 116,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 62,
+				"parent" : 5
+			},
+			{
+				"file" : 6,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 172,
+				"parent" : 24
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALLOW_DEPRECATED_HEADERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTAINER_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTAINER_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_GRAPH_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_GRAPH_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_IOSTREAMS_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_IOSTREAMS_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_RANDOM_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_RANDOM_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_USE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DGTAL_WITH_CAIRO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DGTAL_WITH_EIGEN=true"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EIGEN_MPL2_ONLY"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN32"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-build/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/couty25/vcpkg/installed/x64-windows/include/cairo"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/zlib-build"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/zlib-src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/algorithm/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/array/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/core/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/bind/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/concept_check/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/preprocessor/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/smart_ptr/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/move/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/tuple/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/function/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/iterator/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/detail/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/function_types/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/mpl/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/predef/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/utility/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/io/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/fusion/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/container_hash/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/describe/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/mp11/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/typeof/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/functional/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/optional/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/range/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/conversion/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/regex/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/unordered/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/align/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/any/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/type_index/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/atomic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/winapi/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/bimap/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/lambda/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/multi_index/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/integer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/chrono/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/ratio/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/system/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/variant2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/container/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/intrusive/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/date_time/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/lexical_cast/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/numeric/conversion/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/tokenizer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/dynamic_bitset/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/endian/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/foreach/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/graph/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/math/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/random/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/parameter/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/property_map/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/property_tree/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/serialization/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/spirit/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/phoenix/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/proto/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/pool/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/thread/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/variant/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/tti/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/xpressive/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/icl/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/rational/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/iostreams/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/boost-src/libs/multiprecision/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/couty25/Documents/geoDiscrete/build/_deps/eigen-src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "zlibstatic::@c9556b0b6bf47963f9da"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DGTAL_LibBoard::@e1f42fde0912af298c7a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DGTAL_BoostAddons::@8c87e0fce0af5c00e880"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DGtal_STB::@f38f97e179e37b9593b1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DGtal::@7d191809088cfb46c0d5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_assert::@ca781959373d446383c8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_atomic::@af4e7b587c628727a501"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_chrono::@be6e289178a6d7f8349b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_container::@c32b1d466a2a3774f8b2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_core::@9ce778423535102284e4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_date_time::@66ea84c75316a41dd820"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_exception::@99a4a3f312800b24f965"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_graph::@2f935bf62f9d504e89aa"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_iostreams::@f41fd4685fe132a890ea"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_random::@ddffb027e3570cd93ea8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_serialization::@6b9f1e975f10e47f9876"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_system::@88f8acc0de176ce32d14"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_thread::@0571f5ffef38e5273762"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_variant2::@7801607b17d58cfeeea6"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps\\dgtal-build\\src\\DGtal\\Debug\\DGtald.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "_deps\\dgtal-build\\src\\Board\\Debug\\DGTAL_LibBoardd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "_deps\\dgtal-build\\src\\BoostAddons\\Debug\\DGTAL_BoostAddonsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "_deps\\boost-build\\libs\\graph\\Debug\\libboost_graph-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "_deps\\boost-build\\libs\\iostreams\\Debug\\libboost_iostreams-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "_deps\\boost-build\\libs\\random\\Debug\\libboost_random-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "_deps\\boost-build\\libs\\serialization\\Debug\\libboost_serialization-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "_deps\\boost-build\\libs\\thread\\Debug\\libboost_thread-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "_deps\\boost-build\\libs\\atomic\\Debug\\libboost_atomic-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "synchronization.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "_deps\\boost-build\\libs\\chrono\\Debug\\libboost_chrono-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "_deps\\boost-build\\libs\\date_time\\Debug\\libboost_date_time-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "_deps\\boost-build\\libs\\exception\\Debug\\libboost_exception-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "_deps\\boost-build\\libs\\container\\Debug\\libboost_container-vc144-mt-gd-x64-1_84d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "_deps\\zlib-build\\Debug\\zlibstaticd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "C:\\Users\\couty25\\vcpkg\\installed\\x64-windows\\lib\\cairo.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/eigen-src/debug/msvc/eigen.natvis",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

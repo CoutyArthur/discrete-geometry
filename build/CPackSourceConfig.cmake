@@ -23,7 +23,7 @@ set(CPACK_IGNORE_FILES "CVS;[.]svn;[.]git;[.]AppleDouble;[.]#.*;#.*;.*[.]kdev4;.
 set(CPACK_INNOSETUP_ARCHITECTURE "x64")
 set(CPACK_INSTALLED_DIRECTORIES "C:/Users/couty25/Documents/geoDiscrete;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
-set(CPACK_INSTALL_PREFIX "C:/Program Files/geoDiscrete")
+set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/geoDiscrete")
 set(CPACK_MODULE_PATH "C:/Users/couty25/Documents/geoDiscrete/build;C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake;C:/Users/couty25/Documents/geoDiscrete/build/_deps/dgtal-src/cmake/deps")
 set(CPACK_NSIS_CONTACT "contacts@dgtal.org")
 set(CPACK_NSIS_DISPLAY_NAME " DGtal")
